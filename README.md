@@ -1,4 +1,4 @@
-# An Integrated Scaffold-Guided Generative AI Framework for Type I Photosensitizer Design
+# Scaffold-Guided Generative AI for Type I Photosensitizer Design in Hypoxic Photodynamic Therapy
 ## About
 Type I photosensitizers (PSs) are promising for photodynamic therapy (PDT) of hypoxic tumors, yet their discovery remains largely empirical. Herein, we report a scaffold-guided AI framework that connects literature reading, structure recognition, scaffold-based generation, and Type I mechanism prediction for intelligent Type I PS design.
 
