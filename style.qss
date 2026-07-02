@@ -1,0 +1,89 @@
+QWidget {
+    background-color: #F8F9FA;
+    color: #333333;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10pt;
+}
+QMainWindow {
+    background-color: #FFFFFF;
+}
+QStackedWidget {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+QLabel {
+    background-color: transparent;
+}
+QLineEdit, QTextEdit, QComboBox, QSpinBox {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 6px;
+}
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus, QSpinBox:focus {
+    border: 1px solid #1B5EA1;
+}
+QPushButton {
+    background-color: #1B5EA1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1448A0;
+}
+QPushButton:pressed {
+    background-color: #0F3678;
+}
+QPushButton#BackButton {
+    background-color: #6B7280;
+    font-weight: bold;
+    font-size: 11pt;
+}
+QPushButton#BackButton:hover {
+    background-color: #4B5563;
+}
+QPushButton#ClearAllButton {
+    background-color: #9CA3AF;
+    color: white;
+    font-weight: bold;
+}
+QPushButton#ClearAllButton:hover {
+    background-color: #6B7280;
+}
+QGroupBox {
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    margin-top: 1.5ex;
+    font-weight: bold;
+    font-size: 11pt;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 8px;
+    background-color: #FFFFFF;
+    left: 15px;
+    color: #111827;
+}
+QProgressBar {
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #F3F4F6;
+}
+QProgressBar::chunk {
+    background-color: #1B5EA1;
+    border-radius: 4px;
+}
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+}
+QRadioButton::indicator:checked {
+    background-color: #1B5EA1;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+}
